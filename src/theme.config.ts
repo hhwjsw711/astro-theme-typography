@@ -1,33 +1,25 @@
 export const THEME_CONFIG: App.Locals['config'] = {
   /** blog title */
-  title: "活版印字",
+  title: "沸腾龙",
   /** your name */
-  author: "Typography",
+  author: "FizzDragon",
   /** website description */
-  desc: "Rediscory the beauty of typography",
+  desc: "新加坡AIGC电影创业项目",
   /** your deployed domain */
-  website: "https://astro-theme-typography.vercel.app/",
+  website: "https://blog.fizzdragon.com/",
   /** your locale */
-  locale: "en-us",
+  locale: "zh-cn",
   /** theme style */
   themeStyle: "light",
   /** your socials */
   socials: [
-    {
-      name: "github",
-      href: "https://github.com/moeyua/astro-theme-typography",
-    },
     {
       name: "rss",
       href: "/atom.xml",
     },
     {
       name: "twitter",
-      href: "https://github.com/moeyua/astro-theme-typography",
-    },
-    {
-      name: "mastodon",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      href: "https://twitter.com/FizzDragon_AIGC",
     }
   ],
   /** your header info */
@@ -60,7 +52,7 @@ export const THEME_CONFIG: App.Locals['config'] = {
   /** your comment provider */
   comments: {
     disqus: {
-      shortname: "typography-astro",
+      shortname: "fizzdragon",
     },
     // giscus: {
     //   repo: 'moeyua/astro-theme-typography',
